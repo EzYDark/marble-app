@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from 'svelte'
 
-    import init, { greet } from './../../wasm/pkg/wasm.js'
+    import init, { greet } from './../../static/wasm.js'
 
     onMount(async () => {
         await init()
