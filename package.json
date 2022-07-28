@@ -5,7 +5,7 @@
 		"wasm": "wasm-pack build ./wasm --target web",
 		"dev": "pnpm run wasm && vite dev",
 		"build": "pnpm run wasm && vite build",
-		"build:cf": "npm install -D pnpm && pnpm i --store=node_modules/.pnpm-store && vite build",
+		"build:cf": "pnpm i --store=node_modules/.pnpm-store && vite build",
 		"package": "svelte-kit package",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync",
